@@ -11,6 +11,8 @@ Summary: Library for ISLP labs
 
 Development: https://github.com/intro-stat-learning/ISLP
 
+Documentation: https://intro-stat-learning.github.io/ISLP/labs.html
+
 Current build status
 ====================
 
