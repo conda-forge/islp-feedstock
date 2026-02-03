@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: islp
-  version: "0.4.0"
+  version: "0.4.1"
   python_min: "3.9"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/islp-${{ version }}.tar.gz
-  sha256: 675792d4406c7c09f4e3bb132232b27f7de00e953cc477bc273f7971e03f9d36
+  sha256: 30a084e933967ee8b36f6e1c08218befc69581c399db5d33ee78f5a2f0b82e01
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
